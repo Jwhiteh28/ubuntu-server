@@ -26,7 +26,7 @@ This project demonstrates builing a fully headless Ubuntu home server.<br />
 <h2>Installation Steps</h2>
 <p>The first step is to visit https://ubuntu.com/download/server to download the latest Ubuntu Server. </p>
 <p>
-<img src="https://i.imgur.com/nBoVDkW.png" width="600" alt="Disk Sanitization Steps"/>
+<img src="" width="600" alt=""/>
 </p>
 
 <br />
@@ -36,20 +36,20 @@ This project demonstrates builing a fully headless Ubuntu home server.<br />
 - Next, we need to create a bootable USB flash drive(8gb). I downloaded software called BalenaEtcher: (https://etcher.balena.io/). Select the download you need for your computer. Since I'm on Windows, I select the Windows download.
 </p>
 <p>
-<img src="https://i.imgur.com/DtLvxn1.png" width="600" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/LSnti05.png" width="600" alt="Disk Sanitization Steps"/>
+<img src="" width="600" alt=""/>
+<img src="" width="600" alt=""/>
 </p>
 <p>
   Once BalenaEtcher is finished downloading and installing, we run the program. At this moment, insert the empty USB flash drive.
 </p>
 <p>
-<img src="" width="" alt=""/>
+<img src="" width="600" alt=""/>
 </p>
 <p>
   BalenaEtcher makes the process easy to follow. When it is finished, safely remove the USB flash drive. Remember, once BalenaEtcher make the flash drive into a bootable drive, all the data in the drive will be deleted.
 </p>
 <P>
-<img src="" width="" alt=""/>
+<img src="" width="600" alt=""/>
 </P>
 
 <br />
