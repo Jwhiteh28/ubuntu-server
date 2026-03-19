@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="ubuntu logo"/>
 </p>
 
-<h1>Ubuntu Server - Prerequisites and Installation</h1>
+<h1>Ubuntu Server - Home Server</h1>
 This project demonstrates builing a fully headless Ubuntu home server.<br />
 
 <h2>Environments and Technologies Used</h2>
