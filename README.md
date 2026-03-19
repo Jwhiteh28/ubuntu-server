@@ -48,16 +48,19 @@ This project demonstrates builing a fully headless Ubuntu home server.<br />
 <p>
   BalenaEtcher makes the process easy to follow. When it is finished, safely remove the USB flash drive. Remember, once BalenaEtcher make the flash drive into a bootable drive, all the data in the drive will be deleted.
 </p>
+<p>
+  You will have to search for how to start up your computer's boot menu key. In my case, it's F12. You should eventually get a screen that says "Try install Ubuntu Server" or similar, and click it.
+</p>
 <P>
 <img src="" width="" alt=""/>
 </P>
 
 <br />
 
-<h2>The Server</h2>
+<h2>The Ubuntu Server</h2>
 <p>
-- Within your 
-  <img src="https://i.imgur.com/sLqGSgr.png" width="600" alt="Disk Sanitization Steps"/>
+- I inserted the USB flash drive into my old HP Prodesk PC, and before turning on the computer, make sure it is connected to the router with an ethernet cable. The server should be connected to ethernet cable for speed. 
+  <img src="" width="600" alt=""/>
 </p>
 
 <strong> 3. Enable ISS with CGI </strong>
