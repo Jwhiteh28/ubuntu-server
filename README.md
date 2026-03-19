@@ -24,29 +24,39 @@ This project demonstrates builing a fully headless Ubuntu home server.<br />
 - SSH client for remote setup (optional)
 
 <h2>Installation Steps</h2>
-<h2>Download Ubuntu Server</h2>
-
 <p>The first step is to visit https://ubuntu.com/download/server to download the latest Ubuntu Server. </p>
-  
 <p>
 <img src="https://i.imgur.com/nBoVDkW.png" width="600" alt="Disk Sanitization Steps"/>
 </p>
 
 <br />
 
+<strong>Create the Bootable USB Flash Drive</strong>
 <p>
-- Use the VM’s public IP address to establish a connection through Remote Desktop Protocol (RDP). Start > type mstsc click on remote desktop > paste public IP address and log in with credentials you made when you created the VM (bluemachina in this example).
+- Next, we need to create a bootable USB flash drive(8gb). I downloaded software called BalenaEtcher: (https://etcher.balena.io/). Select the download you need for your computer. Since I'm on Windows, I select the Windows download.
 </p>
 <p>
 <img src="https://i.imgur.com/DtLvxn1.png" width="600" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/LSnti05.png" width="600" alt="Disk Sanitization Steps"/>
 </p>
+<p>
+  Once BalenaEtcher is finished downloading and installing, we run the program. At this moment, insert the empty USB flash drive.
+</p>
+<p>
+<img src="" width="" alt=""/>
+</p>
+<p>
+  BalenaEtcher makes the process easy to follow. When it is finished, safely remove the USB flash drive. Remember, once BalenaEtcher make the flash drive into a bootable drive, all the data in the drive will be deleted.
+</p>
+<P>
+<img src="" width="" alt=""/>
+</P>
 
 <br />
 
-<strong>2. Download the osTicket-installation-Files.zip</strong>
+<h2>The Server</h2>
 <p>
-- Within your VM, download the file from https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD and extract the contents to your desktop. These files will be used to install osTicket.
+- Within your 
   <img src="https://i.imgur.com/sLqGSgr.png" width="600" alt="Disk Sanitization Steps"/>
 </p>
 
