@@ -36,8 +36,8 @@ This project demonstrates builing a fully headless Ubuntu home server.<br />
 - Next, we need to create a bootable USB flash drive(8gb). I downloaded software called BalenaEtcher: (https://etcher.balena.io/). Select the download you need for your computer. Since I'm on Windows, I select the Windows download.
 </p>
 <p>
-<img src="" width="600" alt=""/>
-<img src="" width="600" alt=""/>
+<img src="https://i.imgur.com/l16iqXe.png" width="600" alt="BE install"/>
+<img src="https://i.imgur.com/jLZWqji.png" width="600" alt="BE install"/>
 </p>
 <p>
   Once BalenaEtcher is finished downloading and installing, we run the program. At this moment, insert the empty USB flash drive.
