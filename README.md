@@ -56,6 +56,18 @@ This project demonstrates builing a fully headless Ubuntu home server.<br />
 
 <h2>The Ubuntu Server</h2>
 <p>
+  This is my old PC, a HP ProDesk. This will be my new home server.
+</p>
+<p>
+  <img src="https://i.imgur.com/RlJGSww.jpeg" width="600" alt="HP desktop"/>
+</p>
+<p>
+  I removed the DVD drive because I will be adding more storage in the future.
+</p>
+<p>
+  <img src="https://i.imgur.com/oF7oVad.jpeg" width="600" alt="HP desktop"/>
+</p>
+<p>
 - I inserted the USB flash drive into my old HP Prodesk PC, and before turning on the computer, make sure it is connected to the router with an ethernet cable. The server should be connected to ethernet cable for speed. 
 </p>
 <p>
