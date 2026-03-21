@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://i.imgur.com/Clzj7Xs.png" alt="ubuntu logo"/>
+<img src="https://i.imgur.com/0tmrBR2.png" alt="ubuntu logo"/>
 </p>
 
 <h1>Ubuntu Server - Home Server</h1>
