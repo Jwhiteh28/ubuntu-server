@@ -48,9 +48,10 @@ This project demonstrates builing a fully headless Ubuntu home server.<br />
 <p>
   BalenaEtcher makes the process easy to follow. When it is finished, safely remove the USB flash drive. Remember, once BalenaEtcher make the flash drive into a bootable drive, all the data in the drive will be deleted.
 </p>
-<P>
+<p>
 <img src="https://i.imgur.com/tmAgBLb.png" width="600" alt="BE install"/>
-</P>
+<img src="https://i.imgur.com/7ZL4oWD.png" width="600" alt="BE install"/>
+</p>
 
 <br />
 
@@ -68,13 +69,14 @@ This project demonstrates builing a fully headless Ubuntu home server.<br />
   <img src="https://i.imgur.com/oF7oVad.jpeg" width="600" alt="HP desktop"/>
 </p>
 <p>
-- I inserted the USB flash drive into my old HP Prodesk PC, and before turning on the computer, make sure it is connected to the router with an ethernet cable. The server should be connected to ethernet cable for speed. 
+- I inserted the USB flash drive into my old HP Prodesk PC, and before turning on the computer, make sure it is connected to the router with an ethernet cable. The server should be connected with ethernet cable for speed. 
 </p>
 <p>
 - You will have to search for how to start up your computer's boot menu key. In my case, it's F12. You should eventually get a screen that says "Try install Ubuntu Server" or similar, and click it.
 </p>
 <p>
-  <img src="" width="600" alt=""/>
+  <img src="https://i.imgur.com/bl3gEO9.png" width="600" alt="Server"/>
+  <img src="https://i.imgur.com/2GC18C8.png" width="600" alt="Server"/>
 </p>
 
 <strong>Network configuration</strong>
@@ -82,55 +84,54 @@ This project demonstrates builing a fully headless Ubuntu home server.<br />
 - Here, we are being asked to configure our network interface. You see that there is a given DHCP and subnet. If we leave it this way, it may allow the IP address of the server to change, which we don't want. A server should always have a static IP address, so devices will always find the server. Select network interface > click enter > go down to edit IPv4 > enter > go to manual. Fill in your network information.
 </p>
 <p>
-   <img src="" width="600" alt=""/>
+   <img src="https://i.imgur.com/0rZRNdU.png" width="600" alt="Network config"/>
 </p>
 <p>
 - Proxy configuration: leave it blank, press enter for done. 
-  <img src="" width="600" alt=""/>
 </p>
 <p>
 - Ubuntu archive mirror configuration: press enter. If you get an error, that means something went wrong with the static IP address configuration, so just go back and fix it, otherwise, click enter.
 </p>
 <p>
-  <img src="" width="" alt=""/>
+  <img src="https://i.imgur.com/uSCko0e.png" width="600" alt="mirror config"/>
 </p>
 <p>
 - Guided storage configuration: Use the entire disk. The decision is yours to select ot unselect "set up this disk as an LVM group". An LVM group is part of Logical Volume Manager, a system in Linux that makes managing disk storage more flexible. So instead of splitting your disk into parititions, LVM lets you pool your storage together and then split it up however you want. Click enter done.
 </p>
 <p>
-  <img src="" width="" alt=""/>
+  <img src="https://i.imgur.com/IZCkiVm.png" width="600" alt="guided storage"/>
 </p>
 <p>
 - Storage configuration: just click enter and continue.   
 </p>
 <p>
-  <img src="" width="" alt=""/>
+  <img src="https://i.imgur.com/ojugypS.png" width="600" alt="storage config"/>
 </p>
 <p>
 - Profile configuration: You will be asked to to create an account and name your server. Hit enter once you finish.
 </p>
 <P>
-  <img src="" width="" alt=""/>
+  <img src="https://i.imgur.com/j92I418.png" width="600" alt="profile config"/>
 </P>
 <p>
 - Upgrade to Ubuntu Pro: You can just skip for now unless you have a Ubuntu Pro License.
 </p>
 <p>
-  <img src="" width="" alt=""/>
-</p>
-<p>
 - SSH Configuration: If you want to be able to access this server remotely asap put an x in the "Install OpenSSH server". You will have SSH access, which means you will have remote access from another computer to connect to your server.
 </p>
 <p>
-  <img src="" width="" alt=""/>
+  <img src="https://i.imgur.com/GL0k67C.png" width="600" alt="SSH config"/>
 </p>
 <p>
 - Featured server snaps: These are just features you can install on your server if you want, but I'm going to just skip and select done because I'll be installing features later.
 </p>
 <p>
-  <img src="" width="" alt=""/>
+  <img src="https://i.imgur.com/a4GKF8V.png" width="600" alt="server snaps"/>
 </p>
 <p>
  Once you see the installation is complete, you will see the option to reboot. Select "Reboot Now", finally remove the USB flash drive and press enter. You will be able to log in when reboot is complete.
+</p>
+<p>
+  <img src="" width="600" alt=""/>
 </p>
 <br />
