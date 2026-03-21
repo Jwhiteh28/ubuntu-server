@@ -26,7 +26,7 @@ This project demonstrates builing a fully headless Ubuntu home server.<br />
 <h2>Installation Steps</h2>
 <p>The first step is to visit https://ubuntu.com/download/server to download the latest Ubuntu Server. </p>
 <p>
-<img src="" width="600" alt=""/>
+<img src="https://i.imgur.com/PWoqQ2L.png" width="600" alt="ubuntu server"/>
 </p>
 
 <br />
