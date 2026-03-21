@@ -132,6 +132,7 @@ This project demonstrates builing a fully headless Ubuntu home server.<br />
  Once you see the installation is complete, you will see the option to reboot. Select "Reboot Now", finally remove the USB flash drive and press enter. You will be able to log in when reboot is complete.
 </p>
 <p>
-  <img src="" width="600" alt=""/>
+  <img src="https://i.imgur.com/IKTvM6A.png" width="600" alt="login"/>
 </p>
+
 <br />
