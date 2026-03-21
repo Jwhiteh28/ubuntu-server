@@ -43,13 +43,13 @@ This project demonstrates builing a fully headless Ubuntu home server.<br />
   Once BalenaEtcher is finished downloading and installing, we run the program. At this moment, insert the empty USB flash drive.
 </p>
 <p>
-<img src="" width="600" alt=""/>
+<img src="https://i.imgur.com/MsmQ6aq.png" width="600" alt="BE install"/>
 </p>
 <p>
   BalenaEtcher makes the process easy to follow. When it is finished, safely remove the USB flash drive. Remember, once BalenaEtcher make the flash drive into a bootable drive, all the data in the drive will be deleted.
 </p>
 <P>
-<img src="" width="600" alt=""/>
+<img src="https://i.imgur.com/tmAgBLb.png" width="600" alt="BE install"/>
 </P>
 
 <br />
