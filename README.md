@@ -134,5 +134,49 @@ This project demonstrates builing a fully headless Ubuntu home server.<br />
 <p>
   <img src="https://i.imgur.com/IKTvM6A.png" width="600" alt="login"/>
 </p>
-
+<!--
+<strong>Security:</strong>
+<p>
+  One of the most important things about servers is security. We will first make sure our server is up-to-date. Type "sudo apt update". This is an administrative command, so your password will be required.
+</p>
+<p>
+  <img src="" width="" alt=""/>
+</p>
+<p>
+  When finished, type "sudo apt upgrade", it will ask if you want to continue, just type "y" for yes. After running the update, it's a good idea to restart your server, type "sudo reboot".
+</p>
+<p>
+  <img src="" width="" alt=""/>
+  <img src="" width="" alt=""/>
+</p>
+<strong>Automatic Updates:</strong>
+<p>
+  I will now set the server to automatically update. This will make it much more convenuent. Ubuntu Server should have unattended upgrade package installed by default, but here is how to check. Type "sudo apt install unattended-upgrades".
+</p>
+<p>
+  <img src="" width="" alt=""/>
+</p>
+<p>
+  As you can see, the server already has the newest version installed.
+</p>
+<p>
+  <img src="" width="" alt=""/>
+</p>
+<p>
+  Next, type "sudo apt install update-notifier-common". This will allow the server to automatically restart itself once updated.
+</p>
+<p>
+  <img src="" width="" alt=""/>
+  <img src="" width="" alt=""/>
+</p>
+<p>
+  Now lets check the configuration. Type "cd /etc/apt/apt.conf.d" to change to a new directory. Then type "ls" to list the contents of this directory.
+</p>
+<p>
+  <img src="" width="" alt=""/>
+</p>
+<p>
+  There are two files that we are interested in, first, 50unattended-upgrades. Type "sudo nano 50unattended-upgrades
+</p>
+--!>
 <br />
