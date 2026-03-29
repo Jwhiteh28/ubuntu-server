@@ -176,7 +176,42 @@ This project demonstrates builing a fully headless Ubuntu home server.<br />
   <img src="" width="" alt=""/>
 </p>
 <p>
-  There are two files that we are interested in, first, 50unattended-upgrades. Type "sudo nano 50unattended-upgrades
+  There are two files that we are interested in, first, 50unattended-upgrades. Type "sudo nano 50unattended-upgrades" so we can configure it.
+</p>
+<p>
+  <img src="" width="" alt=""/>
+  <img src="" width="" alt=""/>
+</p>
+<p>
+  Next, press the "ctrl + w" keys to make the search bar appear. Once it pops up, enter "automatic-reboot" then press enter.
+</p>
+<p>
+  <img src="" width="" alt=""/>
+</p>
+<p>
+  It should have taken you to the unattended-upgrade automatic-reboot "false". Delete "false" and turn it "true" and delete the //.
+</p>
+<p>
+  <img src="" width="" alt=""/>
+  <img src="" width="" alt=""/>
+</p>
+<p>
+  Scroll down to "//Unattended_Upgrade::Automatic-Reboot-Time "02:00". You can choose when the upgrade happens. In this example, I'm choosing 1 am (01:00). Don't forget to delete the // to uncomment. Press ctrl + x on the keyboard to save it, "y" to continue, then press enter.
+</p>
+<p>
+  <img src="" width="" alt=""/>
+</p>
+<p>
+  "clear" to clear the screen and now check the second config file, "20auto-upgrades". Type "ls" and type "sudo nano 20auto-upgrades".
+</p>
+<p>
+  <img src="" width="" alt=""/>
+</p>
+<p>
+  Whereas the first config file has the auto update settings, this one enables them. The first line ensures the software package lists are up-to-date so the server gets the latest available packages. The second enables the unattended upgrade itself.
+</p>
+  You can check if it's enables if you see the "1", while "0" means it's disabled. Now press ctrl + x to save, then type "sudo reboot" to restart
+<p>
 </p>
 --!>
 <br />
