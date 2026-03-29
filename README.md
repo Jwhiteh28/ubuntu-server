@@ -210,8 +210,20 @@ This project demonstrates builing a fully headless Ubuntu home server.<br />
 <p>
   Whereas the first config file has the auto update settings, this one enables them. The first line ensures the software package lists are up-to-date so the server gets the latest available packages. The second enables the unattended upgrade itself.
 </p>
-  You can check if it's enables if you see the "1", while "0" means it's disabled. Now press ctrl + x to save, then type "sudo reboot" to restart
+  You can check if it's enables if you see the "1", while "0" means it's disabled. Now press ctrl + x to save, then type "sudo reboot" to restart and apply.
 <p>
+  After the restart, we can check that the automatic update service is running properly. Type "sudo systemctl status unattended-upgrades"
+</p>
+<p>
+  <img src="" width="" alt=""/>
+  <img src="" width="" alt=""/>
+</p>
+<p>
+  Now, to remotely access your headless server via SSH, you will need your server's IP address. You will type "ssh username@ip_address" and sign into your server.
+</p>
+<p>
+<img src="" width="" alt=""/>
+<img src="" width="" alt=""/>
 </p>
 --!>
 <br />
