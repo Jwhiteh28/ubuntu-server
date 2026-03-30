@@ -224,7 +224,7 @@ This project demonstrates builing a fully headless Ubuntu home server.<br />
 <p>
 <img src="https://i.imgur.com/IKHROEM.png" width="600" alt="updates"/>
 </p>
-<strong>From Other PC</strong>
+<strong>From Laptop</strong>
 <p>
   At this point, you can unplug your monitor, keyboard, and mouse. On another PC, open your terminal and type "ssh username@ip_address" and sign into your server.
 </p>
