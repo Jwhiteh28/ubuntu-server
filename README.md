@@ -216,13 +216,21 @@ This project demonstrates builing a fully headless Ubuntu home server.<br />
 <p>
   <img src="https://i.imgur.com/r6yOCHU.png" width="600" alt="updates"/>
   <img src="https://i.imgur.com/g6eXwU0.png" width="600" alt="updates"/>
+  <img src="https://i.imgur.com/O6CFA7H.png" width="600" alt="updates"/>
 </p>
 <p>
-  Now, to remotely access your headless server via SSH, you will need your server's IP address. You will type "ssh username@ip_address" and sign into your server.
+  Now, to remotely access your headless server via SSH, you will need your server's IP address. You will type "ip a" and next to inet should be your address.
 </p>
 <p>
-<img src="" width="" alt="updates"/>
-<img src="" width="" alt="updates"/>
+<img src="https://i.imgur.com/IKHROEM.png" width="600" alt="updates"/>
+</p>
+<strong>From Other PC</strong>
+<p>
+  At this point, you can unplug your monitor, keyboard, and mouse. On another PC, open your terminal and type "ssh username@ip_address" and sign into your server.
+</p>
+<p>
+  <img src="https://i.imgur.com/QxJUCKV.png" width="600" alt="PC"/>
+  <img src="https://i.imgur.com/hm8Il0B.png" width="600" alt="PC"/>
 </p>
 
 <br />
